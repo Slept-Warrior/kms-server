@@ -2,7 +2,7 @@
 ## 直接可用的地址：
 
 ```
-kms.luody.info
+kms.cnbrony.com
 ```
 
 ## kms version:
@@ -20,7 +20,7 @@ vlmcsd-1108-2017-01-19-Hotbird64
 你只需要使用管理员权限运行cmd执行一句命令就足够：
 
 ```
-slmgr /skms kms.luody.info
+slmgr /skms kms.cnbrony.com
 ```
 
 
@@ -82,14 +82,14 @@ cd C:\Program Files (x86)\Microsoft Office\Office16
 然后执行注册kms服务器地址：
 
 ```
-cscript ospp.vbs /sethst:kms.luody.info
+cscript ospp.vbs /sethst:kms.cnbrony.com
 ```
 /sethst参数就是指定kms服务器地址。
 
 一般ospp.vbs可以拖进去cmd窗口，所以也可以这么弄：
 
 ```
-cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /sethst:kms.luody.info
+cscript "C:\Program Files (x86)\Microsoft Office\Office16\OSPP.VBS" /sethst:kms.cnbrony.com
 ```
 
 一般来说，“一句命令已经完成了”，但一般office不会马上连接kms服务器进行激活，所以我们额外补充一条手动激活命令：
